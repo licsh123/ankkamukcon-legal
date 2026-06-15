@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>안까먹콘</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Noto Sans KR', sans-serif;
+      background: #f6f7f8;
+      color: #0a0a0c;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 48px 24px;
+    }
+    .card {
+      background: #fff;
+      border-radius: 20px;
+      padding: 40px 32px;
+      max-width: 480px;
+      width: 100%;
+      box-shadow: 0 2px 16px rgba(0,0,0,.06);
+    }
+    .icon {
+      width: 56px; height: 56px;
+      background: #b8ff3d;
+      border-radius: 16px;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+    h1 { font-size: 26px; font-weight: 700; margin-bottom: 6px; }
+    .sub { color: #6b7280; font-size: 14px; margin-bottom: 32px; }
+    .links { display: flex; flex-direction: column; gap: 12px; }
+    .links a {
+      display: flex; align-items: center; justify-content: space-between;
+      background: #f6f7f8;
+      border-radius: 14px;
+      padding: 16px 20px;
+      text-decoration: none;
+      color: #0a0a0c;
+      font-size: 15px;
+      font-weight: 600;
+      transition: background .15s;
+    }
+    .links a:hover { background: #ededed; }
+    .links a::after { content: '›'; font-size: 20px; color: #9ca3af; }
+    footer { margin-top: 28px; font-size: 12px; color: #9ca3af; text-align: center; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="icon">🎫</div>
+    <h1>안까먹콘</h1>
+    <p class="sub">사진에서 자동으로 기프티콘을 찾아 정리해드려요.</p>
+    <nav class="links">
+      <a href="privacy.html">개인정보처리방침</a>
+      <a href="terms.html">이용약관</a>
+    </nav>
+  </div>
+  <footer>© 2026 안까먹콘. All rights reserved.</footer>
+</body>
+</html>
